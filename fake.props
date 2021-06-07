@@ -1,0 +1,8 @@
+P>=1 [ F<=8 acc16=true ]
+
+A [ F G middle=10 ]
+
+R=? [I=K]
+
+P>=1 [F <=8 inner+middle+upper>=35]
+

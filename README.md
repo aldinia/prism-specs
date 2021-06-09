@@ -54,5 +54,5 @@ FURTHER EXAMPLES
 
 fake_ultra.pm
 
-150 agents, each one connnect with 2-4 other agents
+145 agents, each one connnect with 2-4 other agents
 # prism-specs

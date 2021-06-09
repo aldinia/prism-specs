@@ -1,6 +1,6 @@
 dtmc 
 
-const int K;  // bound for the overall amount of transitions
+const int K = 20;  // bound for the overall amount of transitions
 
 module F_1
 
@@ -1310,48 +1310,4 @@ acc145: bool init false;
 
 endmodule
 
-module F_146
-
-acc146: bool init false;
-
-[go] (acc11=true & acc73=true) -> (acc146'=true); 
-[go] !(acc11=true & acc73=true) -> true; 
-
-endmodule
-
-module F_147
-
-acc147: bool init false;
-
-[go] (acc1=true & acc7=true) -> (acc147'=true); 
-[go] !(acc1=true & acc7=true) -> true; 
-
-endmodule
-
-module F_148
-
-acc148: bool init false;
-
-[go] (acc21=true & acc73=true) -> (acc148'=true); 
-[go] !(acc21=true & acc73=true) -> true; 
-
-endmodule
-
-module F_149
-
-acc149: bool init false;
-
-[go] (acc121=true & acc73=true) -> (acc149'=true); 
-[go] !(acc121=true & acc73=true) -> true; 
-
-endmodule
-
-module F_150
-
-acc150: bool init false;
-
-[go] (acc6=true & acc73=true) -> (acc150'=true); 
-[go] !(acc6=true & acc73=true) -> true; 
-
-endmodule
 

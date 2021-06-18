@@ -10,7 +10,8 @@ ref1: bool init false;
 t1: [1..3] init 1; // 1 believer, 2 susceptible, 3 fact checker
 s1: [1..3] init 1; // local states of the agent
 // action [go] triggers the synchronous execution of the pool of agents
-// semantic side conditions of our language are encoded in the pre/post conditions of PRISM transitions
+// the semantic side conditions of our language are encoded in the 
+// pre/post conditions of PRISM transitions
 
 
 [go] s1=1 & t1=1 &  (acc2=true | acc3=true) -> (s1'=2) & (acc1'=true); 

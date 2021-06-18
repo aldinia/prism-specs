@@ -2,7 +2,7 @@ EXAMPLE
 
 fake_example.pm
 
-Simple example of a network with three agents each one referring to Examples 1 and 2. 
+Simple example of a network with three agents, each one referring to Examples 1 and 2 of the paper.
 
 FIRST CASE STUDY
 
@@ -54,5 +54,5 @@ FURTHER EXAMPLES
 
 fake_ultra.pm
 
-145 agents, each one connnect with 2-4 other agents
+145 agents, each one connnected with 2-4 other agents
 # prism-specs
